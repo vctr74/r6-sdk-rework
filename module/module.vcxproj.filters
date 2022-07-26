@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Features">
+      <UniqueIdentifier>{f85a5448-f8c8-4f94-9e2b-03754567ff8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{bead9602-7254-4586-a8c1-bc3a4c848b46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sdk">
+      <UniqueIdentifier>{6f28fa4f-d9c7-4d07-a5e1-ea045c4f4645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sdk\GameManager">
+      <UniqueIdentifier>{0ed8bd21-035c-4e4d-8d65-f9f2ba6c28ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sdk\ProfileManager">
+      <UniqueIdentifier>{01662242-8627-4f3f-ae7a-891ab8802459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sdk\RoundManager">
+      <UniqueIdentifier>{d3b21245-9d13-4412-b75e-ff6ad249275f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="member.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="injection.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hexrays.hpp">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="game_manager.hpp">
+      <Filter>Header Files\Sdk\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.hpp">
+      <Filter>Header Files\Sdk\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="macros.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="actor.hpp">
+      <Filter>Header Files\Sdk\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="profile_manager.hpp">
+      <Filter>Header Files\Sdk\ProfileManager</Filter>
+    </ClInclude>
+    <ClInclude Include="round_manager.hpp">
+      <Filter>Header Files\Sdk\RoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="pawn.hpp">
+      <Filter>Header Files\Sdk\GameManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="outlines.hpp">
+      <Filter>Header Files\Features</Filter>
+    </None>
+  </ItemGroup>
+</Project>
